@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Card from "./components/Card";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Route exact path="/" Component={Home}></Route>
       <Route path="/about" Component={About}></Route>
       <Route path="/contact" Component={Contact}></Route>
+      <Route path="/:user" Component={Card}></Route>
       </Routes>
     </div>
     </BrowserRouter>

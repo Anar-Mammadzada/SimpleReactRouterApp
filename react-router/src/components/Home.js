@@ -4,7 +4,7 @@ const Home = () =>{
     return(
         <div className="ui raised very padded text container segment" style={{marginTop : '80px'}}>
                 <h3 className="ui header">Home</h3>
-                <p>Salam ay home qaa netersen</p>
+                <p>Hello home, how are you?</p>
         </div>
     )
 }
